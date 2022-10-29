@@ -1,0 +1,31 @@
+
+
+.paginado{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+}
+.item{
+    display: flex;
+    background-color: red;
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+    url("https://w7.pngwing.com/pngs/353/436/png-transparent-old-paper-brown-paper-illustration-cdr-scroll-scrolls.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+.item:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    background-image: none;
+}

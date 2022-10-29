@@ -1,0 +1,9 @@
+.orderc{
+    display: flex;
+    flex-direction: column;
+}
+.paginado{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}

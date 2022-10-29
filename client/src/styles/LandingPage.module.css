@@ -1,0 +1,38 @@
+
+body{
+    background-image: 
+    url("https://p4.wallpaperbetter.com/wallpaper/664/835/587/map-world-countries-flag-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.orderl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(0px);
+}
+.titulo{
+    font-family: Book Antiqua;
+    font-size: 100px;
+    text-shadow: 3px 3px 5px rgb(250, 250, 250);
+}
+.btn{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    font-family: Book Antiqua;
+    font-size: large;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    background-color: rgb(39, 46, 48);
+    color: antiquewhite;
+    box-shadow: 2px 2px 5px 5px azure;
+}

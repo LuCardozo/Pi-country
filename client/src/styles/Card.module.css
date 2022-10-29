@@ -1,0 +1,45 @@
+
+
+.fondo{
+    color:black;
+    display: flex;
+    background-color: blanchedalmond;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: 
+    url("https://wallpaperaccess.com/full/1611230.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 1px solid black;
+}
+.fondo:hover{
+    background-image: none;
+}
+img{
+    display: flex;
+    align-self: center;
+    border-radius: 5px;
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+}
+h1{
+    font-family: Book Antiqua;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+}
+.con{
+    display: flex;
+    justify-content: flex-end;
+}
+h6{
+    margin-left: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

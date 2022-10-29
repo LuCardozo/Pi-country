@@ -1,0 +1,85 @@
+body{
+    backdrop-filter: blur(3px);
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    font-family: Book Antiqua;
+}
+
+
+.order{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    font-family: Book Antiqua;
+    font-size: large;
+    background-color: antiquewhite;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background-color: rgb(39, 46, 48);
+    color: antiquewhite;
+    box-shadow: 2px 2px 5px 5px azure;
+}
+h4{
+    display: flex;
+    font-family: Book Antiqua;
+    font-size: 100px;
+    text-shadow: 3px 3px 5px rgb(250, 250, 250);
+}
+.create{
+    font-family: Book Antiqua;
+    font-size: large;
+    background-color: rgb(226, 225, 255);
+    border-radius: 5px;
+    width: 250px;
+    height: 45px;
+}
+.create:hover{
+    background-color: rgb(39, 46, 48);
+    color: rgb(226, 225, 255);
+    box-shadow: 2px 2px 5px 5px rgb(226, 225, 255);
+}
+.filter{
+    background-color: antiquewhite;
+    font-family: Book Antiqua;
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+}
+.filter:hover{
+    background-color: rgb(39, 46, 48);
+    color: antiquewhite;
+    box-shadow: 2px 2px 5px 5px azure;
+}
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+input{
+    width: 200px;
+    font-family: Book Antiqua;
+    border-radius: 5px;
+    height: 30px;
+}
+.centrao{
+    display: flex;
+    margin-left: 43%;
+    margin-bottom: 20px;
+}
